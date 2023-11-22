@@ -10,6 +10,8 @@ node -v
 
 yarn
 
+docker compose up -d
+
 yarn prisma db push
 
 NODE_OPTIONS="--max-old-space-size=200" yarn ts-node main.ts
