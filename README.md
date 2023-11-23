@@ -5,7 +5,9 @@ For https://github.com/prisma/prisma/issues/21471
 Make sure to have a database running and edit the `.env` file.
 
 ```sh
-# Check your Node.js version
+# Switch the Node.js version provided in `.nvmrc`
+nvm use 
+
 node -v
 
 yarn
