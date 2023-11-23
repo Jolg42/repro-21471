@@ -6,6 +6,7 @@ Make sure to have a database running and edit the `.env` file.
 
 ```sh
 # Switch the Node.js version provided in `.nvmrc`
+nvm install
 nvm use 
 
 node -v
